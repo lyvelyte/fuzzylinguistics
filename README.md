@@ -41,12 +41,30 @@ This file defines your data, linguistic variables (summarizers, qualifiers), and
             "input_dimension_labels": ["color"],
             "input_dimension_units": [null],
             "input_data": [
-               ,,,,,,,,,
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [1]
             ],
             "output_dimension_labels": ["speed"],
             "output_dimension_units": [null],
             "output_data": [
-               ,,,,,,,,,
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [0],
+                [1]
             ]
         }
     ],
@@ -54,25 +72,36 @@ This file defines your data, linguistic variables (summarizers, qualifiers), and
         {
             "dimension_name": "color",
             "predicates": ["Red", "Green", "Blue"],
-            "trapezoidal_x_vals": [, [0.5,0.5,0.5,0.5],],
-            "relevancy_weights":
+            "trapezoidal_x_vals": [
+                [0, 0, 0, 0],
+                [0.5, 0.5, 0.5, 0.5],
+                [1, 1, 1, 1]
+            ],
+            "relevancy_weights": [1, 1, 1]
         }
     ],
     "qualifiers": [
         {
             "dimension_name": "speed",
             "predicates": ["Slow", "Normal", "Fast"],
-            "trapezoidal_x_vals": [, [0.5,0.5,0.5,0.5],],
-            "relevancy_weights":
+            "trapezoidal_x_vals": [
+                [0, 0, 0, 0],
+                [0.5, 0.5, 0.5, 0.5],
+                [1, 1, 1, 1]
+            ],
+            "relevancy_weights": [1, 1, 1]
         }
     ],
     "quantifiers": {
         "dimension_name": "quantifier",
-        "predicates": ["None", "A Few", "Some", "Many", "All"],
+        "predicates": ["None", "None", "A Few", "Some", "Many", "All"],
         "trapezoidal_x_vals": [
-            [null,null,null,null], [0.00001, 0.00001, 0.00001, 0.5],
-            [0.0, 0.5, 0.5, 0.99999], [0.5, 0.99999, 0.99999, 0.99999],
-           
+            [null, null, null, null],
+            [0, 0, 0, 0],
+            [0.00001, 0.00001, 0.00001, 0.5],
+            [0.0, 0.5, 0.5, 0.99999],
+            [0.5, 0.99999, 0.99999, 0.99999],
+            [1, 1, 1, 1]
         ],
         "relevancy_weights": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
     }
@@ -102,8 +131,9 @@ for statement in fls.results["simplified_stage_4_summary"]:
 
 ```
 --- Final Simplified Summary ---
-Of the cars with blue color many are fast.
-Of the cars with red color many are slow.
+None are green color or normal speed.
+Of the cars with blue color none are slow speed, and all are fast speed.
+Of the cars with red color none are fast speed, and all are slow speed.
 ```
 
 ### Examples
