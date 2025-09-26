@@ -1,0 +1,5 @@
+Car Example Cars:
+None are green color or normal speed.
+Of the cars with blue color none are slow speed, and all are fast speed.
+Of the cars with red color none are fast speed, and all are slow speed.
+

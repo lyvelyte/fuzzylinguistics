@@ -1,0 +1,96 @@
+1.0 | None of the cars are normal speed.
+1.0 | Of the cars with red color none are normal speed.
+1.0 | Of the cars with green color none are normal speed.
+1.0 | Of the cars with blue color none are normal speed.
+1.0 | Of the cars with red color none are fast speed.
+1.0 | Of the cars with green color none are slow speed.
+1.0 | Of the cars with blue color none are slow speed.
+1.0 | Of the cars with green color none are fast speed.
+1.0 | None of the cars are green color.
+1.0 | Of the cars with blue color all are fast speed.
+1.0 | Of the cars with red color all are slow speed.
+0.8 | A few of the cars are blue color.
+0.8 | Many of the cars are slow speed.
+0.8 | Many of the cars are red color.
+0.8 | A few of the cars are fast speed.
+0.2 | Some of the cars are fast speed.
+0.2 | Some of the cars are blue color.
+0.2 | Some of the cars are red color.
+0.2 | Some of the cars are slow speed.
+0.0 | None of the cars are fast speed.
+0.0 | Of the cars with blue color none are fast speed.
+0.0 | Of the cars with green color none are fast speed.
+0.0 | Of the cars with red color none are fast speed.
+0.0 | None of the cars are normal speed.
+0.0 | Of the cars with blue color none are slow speed.
+0.0 | None of the cars are slow speed.
+0.0 | None of the cars are green color.
+0.0 | None of the cars are red color.
+0.0 | Of the cars with blue color none are normal speed.
+0.0 | Of the cars with green color none are normal speed.
+0.0 | Of the cars with red color none are normal speed.
+0.0 | None of the data are cars.
+0.0 | Of the cars with blue color none are fast speed.
+0.0 | None of the cars are fast speed.
+0.0 | Of the cars with red color none are slow speed.
+0.0 | None of the data are cars.
+0.0 | None of the cars are blue color.
+0.0 | None of the cars are red color.
+0.0 | A few of the cars are red color.
+0.0 | A few of the data are cars.
+0.0 | Of the cars with blue color a few are slow speed.
+0.0 | A few of the cars are normal speed.
+0.0 | Of the cars with green color a few are normal speed.
+0.0 | Of the cars with red color a few are normal speed.
+0.0 | A few of the cars are slow speed.
+0.0 | Of the cars with red color a few are slow speed.
+0.0 | Of the cars with green color a few are slow speed.
+0.0 | A few of the cars are green color.
+0.0 | Of the cars with blue color a few are fast speed.
+0.0 | Of the cars with green color a few are fast speed.
+0.0 | Of the cars with red color a few are fast speed.
+0.0 | Of the cars with blue color a few are normal speed.
+0.0 | Some of the cars are green color.
+0.0 | Of the cars with red color some are slow speed.
+0.0 | Of the cars with green color some are slow speed.
+0.0 | Some of the data are cars.
+0.0 | Of the cars with blue color some are slow speed.
+0.0 | Some of the cars are normal speed.
+0.0 | Of the cars with green color some are normal speed.
+0.0 | Of the cars with red color some are normal speed.
+0.0 | None of the cars are slow speed.
+0.0 | Of the cars with red color none are slow speed.
+0.0 | Of the cars with green color none are slow speed.
+0.0 | None of the cars are blue color.
+0.0 | Of the cars with blue color some are fast speed.
+0.0 | Of the cars with green color some are fast speed.
+0.0 | Of the cars with red color some are fast speed.
+0.0 | Of the cars with blue color some are normal speed.
+0.0 | Many of the cars are blue color.
+0.0 | Of the cars with red color many are slow speed.
+0.0 | Many of the cars are green color.
+0.0 | Many of the data are cars.
+0.0 | Many of the cars are normal speed.
+0.0 | Of the cars with red color many are normal speed.
+0.0 | Of the cars with green color many are normal speed.
+0.0 | Of the cars with blue color many are normal speed.
+0.0 | Many of the cars are fast speed.
+0.0 | Of the cars with red color many are fast speed.
+0.0 | Of the cars with green color many are slow speed.
+0.0 | Of the cars with blue color many are slow speed.
+0.0 | Of the cars with blue color many are fast speed.
+0.0 | Of the cars with green color many are fast speed.
+0.0 | All of the cars are green color.
+0.0 | All of the data are cars.
+0.0 | All of the cars are blue color.
+0.0 | All of the cars are slow speed.
+0.0 | Of the cars with green color all are slow speed.
+0.0 | All of the cars are red color.
+0.0 | Of the cars with blue color all are slow speed.
+0.0 | All of the cars are normal speed.
+0.0 | Of the cars with green color all are normal speed.
+0.0 | Of the cars with red color all are normal speed.
+0.0 | Of the cars with blue color all are normal speed.
+0.0 | All of the cars are fast speed.
+0.0 | Of the cars with red color all are fast speed.
+0.0 | Of the cars with green color all are fast speed.

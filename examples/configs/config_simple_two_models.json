@@ -1,0 +1,309 @@
+{
+    "datasets": [
+        {
+            "category_name": "cars",
+            "model_name": "Ford",
+            "uses_qualifier": true,
+            "input_dimension_labels": [
+                "color"
+            ],
+            "input_dimension_units": [
+                null
+            ],
+            "input_data": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ],
+            "output_dimension_labels": [
+                "speed"
+            ],
+            "output_dimension_units": [
+                null
+            ],
+            "output_data": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    1
+                ]
+            ]
+        },
+        {
+            "category_name": "cars",
+            "model_name": "Chevy",
+            "uses_qualifier": true,
+            "input_dimension_labels": [
+                "color"
+            ],
+            "input_dimension_units": [
+                null
+            ],
+            "input_data": [
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ],
+                [
+                    0.5
+                ],
+                [
+                    1
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "output_dimension_labels": [
+                "speed"
+            ],
+            "output_dimension_units": [
+                null
+            ],
+            "output_data": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ]
+        }
+    ],
+    "summarizers": [
+        {
+            "dimension_name": "color",
+            "predicates": [
+                "Red",
+                "Green",
+                "Blue"
+            ],
+            "trapezoidal_x_vals": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "relevancy_weights": [
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "qualifiers": [
+        {
+            "dimension_name": "speed",
+            "predicates": [
+                "Slow",
+                "Normal",
+                "Fast"
+            ],
+            "trapezoidal_x_vals": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0.5,
+                    0.5,
+                    0.5,
+                    0.5
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "relevancy_weights": [
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "quantifiers": {
+        "dimension_name": "quantifier",
+        "predicates": [
+            "None",
+            "Many less",
+            "Some less",
+            "Few less",
+            "The Same Amount",
+            "Few more",
+            "Some more",
+            "Many more"
+        ],
+        "trapezoidal_x_vals": [
+            [
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                -1.0,
+                -1.0,
+                -1.0,
+                -0.5
+            ],
+            [
+                -1.0,
+                -0.5,
+                -0.5,
+                -0.00001
+            ],
+            [
+                -0.5,
+                -0.00001,
+                -0.00001,
+                -0.00001
+            ],
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.00001,
+                0.00001,
+                0.00001,
+                0.5
+            ],
+            [
+                0.00001,
+                0.5,
+                0.5,
+                1.0
+            ],
+            [
+                0.5,
+                1.0,
+                1.0,
+                1.0
+            ]
+        ],
+        "relevancy_weights": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    }
+}

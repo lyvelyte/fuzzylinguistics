@@ -1,0 +1,57 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fuzzylinguistics"
+version = "0.1.0"
+authors = [
+  { name="Brendan Alvey", email="lyvelyte@gmail.com" },
+]
+description = "A Python library for generating and simplifying fuzzy linguistic summaries of data."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" } 
+keywords = [
+    "fuzzy logic", 
+    "linguistic summary", 
+    "explainable AI", 
+    "XAI", 
+    "natural language generation", 
+    "data science"
+]
+
+# Classifiers help users find your project on PyPI
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+# Core dependencies required for your library to function
+dependencies = [
+    "numpy",
+    "pydantic",
+    "pydantic-numpy",
+    "networkx",
+    "matplotlib",
+    "tqdm"
+]
+
+# Links that will appear on your PyPI project page
+[project.urls]
+"Homepage" = "https://github.com/lyvelyte/fuzzylinguistics"
+"Bug Tracker" = "https://github.com/lyvelyte/fuzzylinguistics/issues"
+"Repository" = "https://github.com/lyvelyte/fuzzylinguistics"

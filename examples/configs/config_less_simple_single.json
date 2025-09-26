@@ -1,0 +1,94 @@
+{
+    "datasets": [
+        {
+            "category_name": "Cars",
+            "model_name": "Car Example",
+            "uses_qualifier": true,
+            "input_dimension_labels": ["color", "age"],
+            "input_dimension_units": [null, null],
+            "input_data": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [1, 1]
+            ],
+            "output_dimension_labels": ["speed", "size"],
+            "output_dimension_units": [null, null],
+            "output_data": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [1, 1]
+            ]
+        }
+    ],
+    "summarizers": [
+        {
+            "dimension_name": "color",
+            "predicates": ["Red", "Green", "Blue"],
+            "trapezoidal_x_vals": [
+                [0, 0, 0, 0],
+                [0.5, 0.5, 0.5, 0.5],
+                [1, 1, 1, 1]
+            ],
+            "relevancy_weights": [1, 1, 1]
+        },
+        {
+            "dimension_name": "age",
+            "predicates": ["Old", "Modern", "Future"],
+            "trapezoidal_x_vals": [
+                [0, 0, 0, 0],
+                [0.5, 0.5, 0.5, 0.5],
+                [1, 1, 1, 1]
+            ],
+            "relevancy_weights": [1, 1, 1]
+        }
+    ],
+    "qualifiers": [
+        {
+            "dimension_name": "speed",
+            "predicates": ["Slow", "Normal", "Fast"],
+            "trapezoidal_x_vals": [
+                [0, 0, 0, 0],
+                [0.5, 0.5, 0.5, 0.5],
+                [1, 1, 1, 1]
+            ],
+            "relevancy_weights": [1, 1, 1]
+        },
+        {
+            "dimension_name": "size",
+            "predicates": ["Small", "Medium", "Big"],
+            "trapezoidal_x_vals": [
+                [0, 0, 0, 0],
+                [0.5, 0.5, 0.5, 0.5],
+                [1, 1, 1, 1]
+            ],
+            "relevancy_weights": [1, 1, 1]
+        }
+    ],
+    "quantifiers": {
+        "dimension_name": "quantifier",
+        "predicates": ["None", "None", "A Few", "Some", "Many", "All"],
+        "trapezoidal_x_vals": [
+            [null, null, null, null],
+            [0, 0, 0, 0],
+            [0.00001, 0.00001, 0.00001, 0.5],
+            [0.0, 0.5, 0.5, 0.99999],
+            [0.5, 0.99999, 0.99999, 0.99999],
+            [1, 1, 1, 1]
+        ],
+        "relevancy_weights": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    }
+}

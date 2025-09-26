@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-09-26">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="size" type="double" />
+      <attribute id="1" title="data" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Linguistic Summaries" label="Linguistic Summaries">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="0.0" y="0" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': -1, 'r': -1, 'p': -1, 'v_s': -1, 't_s': -1, 'f_s': -1, 'o_s': -1, 'c_s': -1, 'T': False, 'R': False, 'P': True}" />
+        </attvalues>
+      </node>
+      <node id="None of the data are cars." label="None of the data are cars.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-400.0" y="-300" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 0, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(1.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="None of the cars are red color." label="None of the cars are red color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2300.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 0, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="None of the cars are green color." label="None of the cars are green color.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-2100.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 0, 'p': 2, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="None of the cars are blue color." label="None of the cars are blue color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1900.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 0, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="None of the cars are slow speed." label="None of the cars are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2900.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 1, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color none are slow speed." label="Of the cars with red color none are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-4400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 1, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color none are slow speed." label="Of the cars with green color none are slow speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-4200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 1, 'p': 2, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color none are slow speed." label="Of the cars with blue color none are slow speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-4000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 1, 'p': 3, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.1), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="None of the cars are normal speed." label="None of the cars are normal speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-2700.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 2, 'p': 0, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(1.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color none are normal speed." label="Of the cars with red color none are normal speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-3800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 2, 'p': 1, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.9), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color none are normal speed." label="Of the cars with green color none are normal speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-3600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 2, 'p': 2, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color none are normal speed." label="Of the cars with blue color none are normal speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-3400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 2, 'p': 3, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.1), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="None of the cars are fast speed." label="None of the cars are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2500.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 3, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color none are fast speed." label="Of the cars with red color none are fast speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-3200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 3, 'p': 1, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.9), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color none are fast speed." label="Of the cars with green color none are fast speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="-3000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 3, 'p': 2, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color none are fast speed." label="Of the cars with blue color none are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 1, 'r': 3, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the data are cars." label="A few of the data are cars.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-200.0" y="-300" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 0, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(1.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the cars are red color." label="A few of the cars are red color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1100.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 0, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the cars are green color." label="A few of the cars are green color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-900.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 0, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the cars are blue color." label="A few of the cars are blue color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="80.00160003200064" />
+        <viz:position x="-700.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="80.00160003200064" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 0, 'p': 3, 'v_s': np.float64(0.8000160003200064), 't_s': np.float64(0.8000160003200064), 'f_s': np.float64(0.08000160003200064), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the cars are slow speed." label="A few of the cars are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1700.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 1, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color a few are slow speed." label="Of the cars with red color a few are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 1, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color a few are slow speed." label="Of the cars with green color a few are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 1, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color a few are slow speed." label="Of the cars with blue color a few are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 1, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the cars are normal speed." label="A few of the cars are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1500.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 2, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color a few are normal speed." label="Of the cars with red color a few are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-2000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 2, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color a few are normal speed." label="Of the cars with green color a few are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 2, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color a few are normal speed." label="Of the cars with blue color a few are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 2, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="A few of the cars are fast speed." label="A few of the cars are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="80.00160003200064" />
+        <viz:position x="-1300.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="80.00160003200064" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 3, 'p': 0, 'v_s': np.float64(0.8000160003200064), 't_s': np.float64(0.8000160003200064), 'f_s': np.float64(0.8000160003200064), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color a few are fast speed." label="Of the cars with red color a few are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 3, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color a few are fast speed." label="Of the cars with green color a few are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 3, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color a few are fast speed." label="Of the cars with blue color a few are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-1000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 2, 'r': 3, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the data are cars." label="Some of the data are cars.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="0.0" y="-300" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 0, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(1.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the cars are red color." label="Some of the cars are red color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="19.998399967999358" />
+        <viz:position x="100.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="19.998399967999358" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 0, 'p': 1, 'v_s': np.float64(0.19998399967999358), 't_s': np.float64(0.19998399967999358), 'f_s': np.float64(0.17998559971199424), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the cars are green color." label="Some of the cars are green color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="300.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 0, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the cars are blue color." label="Some of the cars are blue color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="500.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="20.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 0, 'p': 3, 'v_s': np.float64(0.2), 't_s': np.float64(0.2), 'f_s': np.float64(0.020000000000000004), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the cars are slow speed." label="Some of the cars are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="19.998399967999358" />
+        <viz:position x="-500.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="19.998399967999358" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 1, 'p': 0, 'v_s': np.float64(0.19998399967999358), 't_s': np.float64(0.19998399967999358), 'f_s': np.float64(0.19998399967999358), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color some are slow speed." label="Of the cars with red color some are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 1, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color some are slow speed." label="Of the cars with green color some are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 1, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color some are slow speed." label="Of the cars with blue color some are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 1, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the cars are normal speed." label="Some of the cars are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-300.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 2, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color some are normal speed." label="Of the cars with red color some are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="-200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 2, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color some are normal speed." label="Of the cars with green color some are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="0.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 2, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color some are normal speed." label="Of the cars with blue color some are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 2, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Some of the cars are fast speed." label="Some of the cars are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-100.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="20.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 3, 'p': 0, 'v_s': np.float64(0.2), 't_s': np.float64(0.2), 'f_s': np.float64(0.2), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color some are fast speed." label="Of the cars with red color some are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 3, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color some are fast speed." label="Of the cars with green color some are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 3, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color some are fast speed." label="Of the cars with blue color some are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 3, 'r': 3, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the data are cars." label="Many of the data are cars.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="200.0" y="-300" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 0, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(1.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the cars are red color." label="Many of the cars are red color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="80.00160003200064" />
+        <viz:position x="1300.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="80.00160003200064" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 0, 'p': 1, 'v_s': np.float64(0.8000160003200064), 't_s': np.float64(0.8000160003200064), 'f_s': np.float64(0.7200144002880058), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the cars are green color." label="Many of the cars are green color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1500.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 0, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the cars are blue color." label="Many of the cars are blue color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1700.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 0, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the cars are slow speed." label="Many of the cars are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="80.00160003200064" />
+        <viz:position x="700.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="80.00160003200064" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 1, 'p': 0, 'v_s': np.float64(0.8000160003200064), 't_s': np.float64(0.8000160003200064), 'f_s': np.float64(0.8000160003200064), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color many are slow speed." label="Of the cars with red color many are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 1, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color many are slow speed." label="Of the cars with green color many are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 1, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color many are slow speed." label="Of the cars with blue color many are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 1, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the cars are normal speed." label="Many of the cars are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="900.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 2, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color many are normal speed." label="Of the cars with red color many are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 2, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color many are normal speed." label="Of the cars with green color many are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 2, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color many are normal speed." label="Of the cars with blue color many are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 2, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Many of the cars are fast speed." label="Many of the cars are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1100.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 3, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color many are fast speed." label="Of the cars with red color many are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 3, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color many are fast speed." label="Of the cars with green color many are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 3, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color many are fast speed." label="Of the cars with blue color many are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 4, 'r': 3, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the data are cars." label="All of the data are cars.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="400.0" y="-300" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 0, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(1.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the cars are red color." label="All of the cars are red color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2500.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 0, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the cars are green color." label="All of the cars are green color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2700.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 0, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the cars are blue color." label="All of the cars are blue color.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2900.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 0, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the cars are slow speed." label="All of the cars are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="1900.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 1, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color all are slow speed." label="Of the cars with red color all are slow speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="2800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 1, 'p': 1, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.9), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color all are slow speed." label="Of the cars with green color all are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="3000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 1, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color all are slow speed." label="Of the cars with blue color all are slow speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="3200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 1, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the cars are normal speed." label="All of the cars are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2100.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 2, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color all are normal speed." label="Of the cars with red color all are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="3400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 2, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color all are normal speed." label="Of the cars with green color all are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="3600.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 2, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color all are normal speed." label="Of the cars with blue color all are normal speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="3800.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 2, 'p': 3, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="All of the cars are fast speed." label="All of the cars are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="2300.0" y="-600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 3, 'p': 0, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.5), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with red color all are fast speed." label="Of the cars with red color all are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="4000.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 3, 'p': 1, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with green color all are fast speed." label="Of the cars with green color all are fast speed.">
+        <viz:color r="255" g="128" b="128" a="1.0" />
+        <viz:size value="0.0" />
+        <viz:position x="4200.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 3, 'p': 2, 'v_s': np.float64(0.0), 't_s': np.float64(0.0), 'f_s': np.float64(0.0), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': False, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+      <node id="Of the cars with blue color all are fast speed." label="Of the cars with blue color all are fast speed.">
+        <viz:color r="128" g="255" b="128" a="1.0" />
+        <viz:size value="100.0" />
+        <viz:position x="4400.0" y="-900" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="{'data_type': 0, 'q': 5, 'r': 3, 'p': 3, 'v_s': np.float64(1.0), 't_s': np.float64(1.0), 'f_s': np.float64(0.1), 'o_s': np.float64(1.0), 'c_s': np.float64(0.0), 'T': True, 'R': None, 'P': False}" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Linguistic Summaries" target="None of the data are cars." id="0" />
+      <edge source="Linguistic Summaries" target="A few of the data are cars." id="1" />
+      <edge source="Linguistic Summaries" target="Some of the data are cars." id="2" />
+      <edge source="Linguistic Summaries" target="Many of the data are cars." id="3" />
+      <edge source="Linguistic Summaries" target="All of the data are cars." id="4" />
+      <edge source="None of the data are cars." target="None of the cars are slow speed." id="5" />
+      <edge source="None of the data are cars." target="None of the cars are normal speed." id="6" />
+      <edge source="None of the data are cars." target="None of the cars are fast speed." id="7" />
+      <edge source="None of the data are cars." target="None of the cars are red color." id="8" />
+      <edge source="None of the data are cars." target="None of the cars are green color." id="9" />
+      <edge source="None of the data are cars." target="None of the cars are blue color." id="10" />
+      <edge source="None of the cars are red color." target="Of the cars with red color none are slow speed." id="11" />
+      <edge source="None of the cars are red color." target="Of the cars with red color none are normal speed." id="12" />
+      <edge source="None of the cars are red color." target="Of the cars with red color none are fast speed." id="13" />
+      <edge source="None of the cars are green color." target="Of the cars with green color none are slow speed." id="14" />
+      <edge source="None of the cars are green color." target="Of the cars with green color none are normal speed." id="15" />
+      <edge source="None of the cars are green color." target="Of the cars with green color none are fast speed." id="16" />
+      <edge source="None of the cars are blue color." target="Of the cars with blue color none are slow speed." id="17" />
+      <edge source="None of the cars are blue color." target="Of the cars with blue color none are normal speed." id="18" />
+      <edge source="None of the cars are blue color." target="Of the cars with blue color none are fast speed." id="19" />
+      <edge source="None of the cars are slow speed." target="Of the cars with red color none are slow speed." id="20" />
+      <edge source="None of the cars are slow speed." target="Of the cars with green color none are slow speed." id="21" />
+      <edge source="None of the cars are slow speed." target="Of the cars with blue color none are slow speed." id="22" />
+      <edge source="None of the cars are normal speed." target="Of the cars with red color none are normal speed." id="23" />
+      <edge source="None of the cars are normal speed." target="Of the cars with green color none are normal speed." id="24" />
+      <edge source="None of the cars are normal speed." target="Of the cars with blue color none are normal speed." id="25" />
+      <edge source="None of the cars are fast speed." target="Of the cars with red color none are fast speed." id="26" />
+      <edge source="None of the cars are fast speed." target="Of the cars with green color none are fast speed." id="27" />
+      <edge source="None of the cars are fast speed." target="Of the cars with blue color none are fast speed." id="28" />
+      <edge source="A few of the data are cars." target="A few of the cars are slow speed." id="29" />
+      <edge source="A few of the data are cars." target="A few of the cars are normal speed." id="30" />
+      <edge source="A few of the data are cars." target="A few of the cars are fast speed." id="31" />
+      <edge source="A few of the data are cars." target="A few of the cars are red color." id="32" />
+      <edge source="A few of the data are cars." target="A few of the cars are green color." id="33" />
+      <edge source="A few of the data are cars." target="A few of the cars are blue color." id="34" />
+      <edge source="A few of the cars are red color." target="Of the cars with red color a few are slow speed." id="35" />
+      <edge source="A few of the cars are red color." target="Of the cars with red color a few are normal speed." id="36" />
+      <edge source="A few of the cars are red color." target="Of the cars with red color a few are fast speed." id="37" />
+      <edge source="A few of the cars are green color." target="Of the cars with green color a few are slow speed." id="38" />
+      <edge source="A few of the cars are green color." target="Of the cars with green color a few are normal speed." id="39" />
+      <edge source="A few of the cars are green color." target="Of the cars with green color a few are fast speed." id="40" />
+      <edge source="A few of the cars are blue color." target="Of the cars with blue color a few are slow speed." id="41" />
+      <edge source="A few of the cars are blue color." target="Of the cars with blue color a few are normal speed." id="42" />
+      <edge source="A few of the cars are blue color." target="Of the cars with blue color a few are fast speed." id="43" />
+      <edge source="A few of the cars are slow speed." target="Of the cars with red color a few are slow speed." id="44" />
+      <edge source="A few of the cars are slow speed." target="Of the cars with green color a few are slow speed." id="45" />
+      <edge source="A few of the cars are slow speed." target="Of the cars with blue color a few are slow speed." id="46" />
+      <edge source="A few of the cars are normal speed." target="Of the cars with red color a few are normal speed." id="47" />
+      <edge source="A few of the cars are normal speed." target="Of the cars with green color a few are normal speed." id="48" />
+      <edge source="A few of the cars are normal speed." target="Of the cars with blue color a few are normal speed." id="49" />
+      <edge source="A few of the cars are fast speed." target="Of the cars with red color a few are fast speed." id="50" />
+      <edge source="A few of the cars are fast speed." target="Of the cars with green color a few are fast speed." id="51" />
+      <edge source="A few of the cars are fast speed." target="Of the cars with blue color a few are fast speed." id="52" />
+      <edge source="Some of the data are cars." target="Some of the cars are slow speed." id="53" />
+      <edge source="Some of the data are cars." target="Some of the cars are normal speed." id="54" />
+      <edge source="Some of the data are cars." target="Some of the cars are fast speed." id="55" />
+      <edge source="Some of the data are cars." target="Some of the cars are red color." id="56" />
+      <edge source="Some of the data are cars." target="Some of the cars are green color." id="57" />
+      <edge source="Some of the data are cars." target="Some of the cars are blue color." id="58" />
+      <edge source="Some of the cars are red color." target="Of the cars with red color some are slow speed." id="59" />
+      <edge source="Some of the cars are red color." target="Of the cars with red color some are normal speed." id="60" />
+      <edge source="Some of the cars are red color." target="Of the cars with red color some are fast speed." id="61" />
+      <edge source="Some of the cars are green color." target="Of the cars with green color some are slow speed." id="62" />
+      <edge source="Some of the cars are green color." target="Of the cars with green color some are normal speed." id="63" />
+      <edge source="Some of the cars are green color." target="Of the cars with green color some are fast speed." id="64" />
+      <edge source="Some of the cars are blue color." target="Of the cars with blue color some are slow speed." id="65" />
+      <edge source="Some of the cars are blue color." target="Of the cars with blue color some are normal speed." id="66" />
+      <edge source="Some of the cars are blue color." target="Of the cars with blue color some are fast speed." id="67" />
+      <edge source="Some of the cars are slow speed." target="Of the cars with red color some are slow speed." id="68" />
+      <edge source="Some of the cars are slow speed." target="Of the cars with green color some are slow speed." id="69" />
+      <edge source="Some of the cars are slow speed." target="Of the cars with blue color some are slow speed." id="70" />
+      <edge source="Some of the cars are normal speed." target="Of the cars with red color some are normal speed." id="71" />
+      <edge source="Some of the cars are normal speed." target="Of the cars with green color some are normal speed." id="72" />
+      <edge source="Some of the cars are normal speed." target="Of the cars with blue color some are normal speed." id="73" />
+      <edge source="Some of the cars are fast speed." target="Of the cars with red color some are fast speed." id="74" />
+      <edge source="Some of the cars are fast speed." target="Of the cars with green color some are fast speed." id="75" />
+      <edge source="Some of the cars are fast speed." target="Of the cars with blue color some are fast speed." id="76" />
+      <edge source="Many of the data are cars." target="Many of the cars are slow speed." id="77" />
+      <edge source="Many of the data are cars." target="Many of the cars are normal speed." id="78" />
+      <edge source="Many of the data are cars." target="Many of the cars are fast speed." id="79" />
+      <edge source="Many of the data are cars." target="Many of the cars are red color." id="80" />
+      <edge source="Many of the data are cars." target="Many of the cars are green color." id="81" />
+      <edge source="Many of the data are cars." target="Many of the cars are blue color." id="82" />
+      <edge source="Many of the cars are red color." target="Of the cars with red color many are slow speed." id="83" />
+      <edge source="Many of the cars are red color." target="Of the cars with red color many are normal speed." id="84" />
+      <edge source="Many of the cars are red color." target="Of the cars with red color many are fast speed." id="85" />
+      <edge source="Many of the cars are green color." target="Of the cars with green color many are slow speed." id="86" />
+      <edge source="Many of the cars are green color." target="Of the cars with green color many are normal speed." id="87" />
+      <edge source="Many of the cars are green color." target="Of the cars with green color many are fast speed." id="88" />
+      <edge source="Many of the cars are blue color." target="Of the cars with blue color many are slow speed." id="89" />
+      <edge source="Many of the cars are blue color." target="Of the cars with blue color many are normal speed." id="90" />
+      <edge source="Many of the cars are blue color." target="Of the cars with blue color many are fast speed." id="91" />
+      <edge source="Many of the cars are slow speed." target="Of the cars with red color many are slow speed." id="92" />
+      <edge source="Many of the cars are slow speed." target="Of the cars with green color many are slow speed." id="93" />
+      <edge source="Many of the cars are slow speed." target="Of the cars with blue color many are slow speed." id="94" />
+      <edge source="Many of the cars are normal speed." target="Of the cars with red color many are normal speed." id="95" />
+      <edge source="Many of the cars are normal speed." target="Of the cars with green color many are normal speed." id="96" />
+      <edge source="Many of the cars are normal speed." target="Of the cars with blue color many are normal speed." id="97" />
+      <edge source="Many of the cars are fast speed." target="Of the cars with red color many are fast speed." id="98" />
+      <edge source="Many of the cars are fast speed." target="Of the cars with green color many are fast speed." id="99" />
+      <edge source="Many of the cars are fast speed." target="Of the cars with blue color many are fast speed." id="100" />
+      <edge source="All of the data are cars." target="All of the cars are slow speed." id="101" />
+      <edge source="All of the data are cars." target="All of the cars are normal speed." id="102" />
+      <edge source="All of the data are cars." target="All of the cars are fast speed." id="103" />
+      <edge source="All of the data are cars." target="All of the cars are red color." id="104" />
+      <edge source="All of the data are cars." target="All of the cars are green color." id="105" />
+      <edge source="All of the data are cars." target="All of the cars are blue color." id="106" />
+      <edge source="All of the cars are red color." target="Of the cars with red color all are slow speed." id="107" />
+      <edge source="All of the cars are red color." target="Of the cars with red color all are normal speed." id="108" />
+      <edge source="All of the cars are red color." target="Of the cars with red color all are fast speed." id="109" />
+      <edge source="All of the cars are green color." target="Of the cars with green color all are slow speed." id="110" />
+      <edge source="All of the cars are green color." target="Of the cars with green color all are normal speed." id="111" />
+      <edge source="All of the cars are green color." target="Of the cars with green color all are fast speed." id="112" />
+      <edge source="All of the cars are blue color." target="Of the cars with blue color all are slow speed." id="113" />
+      <edge source="All of the cars are blue color." target="Of the cars with blue color all are normal speed." id="114" />
+      <edge source="All of the cars are blue color." target="Of the cars with blue color all are fast speed." id="115" />
+      <edge source="All of the cars are slow speed." target="Of the cars with red color all are slow speed." id="116" />
+      <edge source="All of the cars are slow speed." target="Of the cars with green color all are slow speed." id="117" />
+      <edge source="All of the cars are slow speed." target="Of the cars with blue color all are slow speed." id="118" />
+      <edge source="All of the cars are normal speed." target="Of the cars with red color all are normal speed." id="119" />
+      <edge source="All of the cars are normal speed." target="Of the cars with green color all are normal speed." id="120" />
+      <edge source="All of the cars are normal speed." target="Of the cars with blue color all are normal speed." id="121" />
+      <edge source="All of the cars are fast speed." target="Of the cars with red color all are fast speed." id="122" />
+      <edge source="All of the cars are fast speed." target="Of the cars with green color all are fast speed." id="123" />
+      <edge source="All of the cars are fast speed." target="Of the cars with blue color all are fast speed." id="124" />
+    </edges>
+  </graph>
+</gexf>
