@@ -2,27 +2,31 @@ name: Publish to PyPI
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'  # Triggers on tags like v1.0.0, v0.1.0-alpha, etc.
 
 jobs:
   pypi-publish:
     name: Build and publish Python distribution to PyPI
     runs-on: ubuntu-latest
-    # This line ensures it only runs if the commit starts with 'RELEASE:'
-    if: startsWith(github.event.head_commit.message, 'RELEASE:')
     
+    # Required for Trusted Publishing (OIDC)
     permissions:
-      id-token: write 
+      id-token: write
       contents: read
 
+    # Setup the environment so it shows up nicely in your GitHub Repo's sidebar
     environment:
       name: pypi
-      url: https://pypi.org/p/fuzzylinguistics
+      url: https://pypi.org/p/fuzzlinguistics
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        # CRITICAL: fetch-depth: 0 is required for 'setuptools_scm' to 
+        # automatically detect the version number from your git tag.
+        fetch-depth: 0
 
     - name: Set up Python
       uses: actions/setup-python@v5

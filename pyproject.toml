@@ -1,12 +1,15 @@
 # pyproject.toml
 
 [build-system]
-requires = ["setuptools>=61.0"]
+# ADDED: setuptools-scm so the build process can read git tags
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "fuzzylinguistics"
-version = "0.1.0"
+# REMOVED: version = "0.1.0"
+# ADDED: This tells pip/build to look elsewhere for the version
+dynamic = ["version"]
 authors = [
   { name="Brendan Alvey", email="lyvelyte@gmail.com" },
 ]
@@ -23,7 +26,6 @@ keywords = [
     "data science"
 ]
 
-# Classifiers help users find your project on PyPI
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -40,7 +42,6 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
 ]
 
-# Core dependencies required for your library to function
 dependencies = [
     "numpy",
     "pydantic",
@@ -51,8 +52,13 @@ dependencies = [
     "pandas"
 ]
 
-# Links that will appear on your PyPI project page
 [project.urls]
 "Homepage" = "https://github.com/lyvelyte/fuzzylinguistics"
 "Bug Tracker" = "https://github.com/lyvelyte/fuzzylinguistics/issues"
 "Repository" = "https://github.com/lyvelyte/fuzzylinguistics"
+
+# ADDED: Configuration for automatic versioning
+[tool.setuptools_scm]
+# This will write a file containing the version number into your package
+# so you can use `print(fuzzylinguistics.__version__)` at runtime.
+write_to = "fuzzylinguistics/_version.py"
