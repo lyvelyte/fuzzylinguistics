@@ -61,4 +61,4 @@ dependencies = [
 [tool.setuptools_scm]
 # This will write a file containing the version number into your package
 # so you can use `print(fuzzylinguistics.__version__)` at runtime.
-write_to = "fuzzylinguistics/_version.py"
+write_to = "src/fuzzylinguistics/_version.py"
