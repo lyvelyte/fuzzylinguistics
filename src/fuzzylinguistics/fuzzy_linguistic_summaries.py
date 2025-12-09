@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 import re
 from collections import Counter
+import math
 
 seed_value = 42
 random.seed(seed_value)
@@ -165,15 +166,22 @@ def find_partitions(list_a, list_b):
     return group1_indices, group2_indices
 
 def scale_axis(ax, all_xs, all_ys, tick_size):
-    min_x = min(all_xs)
-    max_x = max(all_xs)
-    min_y = min(all_ys)
-    max_y = max(all_ys)
+    # Use nanmin and nanmax to safely handle NaN values
+    min_x = np.nanmin(all_xs)
+    max_x = np.nanmax(all_xs)
+    min_y = np.nanmin(all_ys)
+    max_y = np.nanmax(all_ys)
 
-    pad_x = 0.10*abs(max_x - min_x)
-    pad_y = 0.10*abs(max_y - min_y)
-    ax.set_xlim(min_x-pad_x, max_x+pad_x)
-    ax.set_ylim(min_y-pad_y, max_y+pad_y)
+    # Check if all values were NaN, in which case min/max will be NaN
+    if math.isnan(min_x) or math.isnan(max_x) or math.isnan(min_y) or math.isnan(max_y):
+        # Handle the case where there is no data to scale, perhaps by setting default limits
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+    else:
+        pad_x = 0.10 * abs(max_x - min_x)
+        pad_y = 0.10 * abs(max_y - min_y)
+        ax.set_xlim(min_x - pad_x, max_x + pad_x)
+        ax.set_ylim(min_y - pad_y, max_y + pad_y)
 
     ax.ticklabel_format(style='sci', axis='x', scilimits=(0, 0))
     ax.ticklabel_format(style='sci', axis='y', scilimits=(0, 0))
@@ -430,6 +438,70 @@ class FuzzyLinguisticSummaries:
             print(f"Created data category. Model = {model_name} Name = {category_name}, input_points.shape = {input_data.shape}, output_data.shape  = {output_data.shape}")
         else:
             print(f"Did not create data category = {category_name} because input_data.shape[0] == 0.")
+
+    def export_config(self, file_path: str):
+        """
+        Exports the current membership function configurations to a JSON file.
+
+        This is useful for saving an auto-generated configuration for later use
+        with `setup_fls_from_data`.
+
+        Args:
+            file_path: The path to the output JSON file.
+        """
+
+        def format_trapezoids(np_array: np.ndarray) -> list:
+            """Converts a numpy array to a list and replaces NaN with None for JSON compatibility."""
+            # Replace nan with a placeholder, convert to list, then replace placeholder with None
+            return np.where(np.isnan(np_array), None, np_array).tolist()
+
+        # --- 1. Extract and format summarizers ---
+        summarizers_list = [
+            {
+                "dimension_name": s.attribute_name,
+                "predicates": s.fuzzy_predicates,
+                "trapezoidal_x_vals": format_trapezoids(s.trapezoidal_fuzzy_membership_function_x_vals),
+                "relevancy_weights": s.operational_relevancy_weights,
+            }
+            for s in self.summarizers
+        ]
+
+        # --- 2. Extract and format qualifiers ---
+        qualifiers_list = [
+            {
+                "dimension_name": q.attribute_name,
+                "predicates": q.fuzzy_predicates,
+                "trapezoidal_x_vals": format_trapezoids(q.trapezoidal_fuzzy_membership_function_x_vals),
+                "relevancy_weights": q.operational_relevancy_weights,
+            }
+            for q in self.qualifiers
+        ]
+            
+        # --- 3. Extract and format quantifiers ---
+        if self.quantifiers:
+            quantifiers_dict = {
+                "dimension_name": "quantifier", # As per the original format
+                "predicates": self.quantifiers.fuzzy_predicates,
+                "trapezoidal_x_vals": format_trapezoids(self.quantifiers.trapezoidal_fuzzy_membership_function_x_vals),
+                "relevancy_weights": self.quantifiers.operational_relevancy_weights
+            }
+        else:
+            quantifiers_dict = {}
+
+        # --- 4. Combine into a single dictionary ---
+        full_config = {
+            "summarizers": summarizers_list,
+            "qualifiers": qualifiers_list,
+            "quantifiers": quantifiers_dict
+        }
+
+        # --- 5. Write to JSON file ---
+        try:
+            with open(file_path, "w") as f:
+                json.dump(full_config, f, indent=4)
+            print(f"Successfully exported membership function configuration to {file_path}")
+        except Exception as e:
+            print(f"Error exporting configuration to {file_path}: {e}")
 
     def compute_n_attributes(self):
         for data_category in self.data_categories:

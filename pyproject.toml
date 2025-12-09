@@ -47,7 +47,8 @@ dependencies = [
     "pydantic-numpy",
     "networkx",
     "matplotlib",
-    "tqdm"
+    "tqdm",
+    "pandas"
 ]
 
 # Links that will appear on your PyPI project page
