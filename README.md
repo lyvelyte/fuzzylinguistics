@@ -1,6 +1,6 @@
 # FuzzyLinguistics
 
-[![PyPI version](https://img.shields.io/pypi/v/fuzzylinguistics.svg?color=green)](https://pypi.org/project/fuzzylinguistics/)
+[![PyPI version](https://img.shields.io/pypi/v/fuzzylinguistics.svg?color=%23007f3e)](https://pypi.org/project/fuzzylinguistics/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A powerful and flexible Python library for generating and simplifying fuzzy linguistic summaries of data. Turn complex datasets into human-readable, natural language insights.
