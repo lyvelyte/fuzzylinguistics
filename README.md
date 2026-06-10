@@ -23,6 +23,38 @@ Install `fuzzylinguistics` directly from PyPI:
 pip install fuzzylinguistics
 ```
 
+### GPU Acceleration
+
+`fuzzylinguistics` uses `compute_backend="auto"` by default. If a compatible
+CuPy/CUDA install is available, large numeric operations can run on the GPU;
+otherwise the package falls back to NumPy on CPU.
+
+CuPy wheels are CUDA-version-specific, so GPU support is provided through
+optional install extras:
+
+```bash
+# CUDA 13
+pip install "fuzzylinguistics[gpu-cuda13]"
+
+# CUDA 12
+pip install "fuzzylinguistics[gpu-cuda12]"
+```
+
+You can force a backend when generating summaries:
+
+```python
+fls.generate_fls_one_model(
+    results_dir="./results",
+    compute_backend="numpy",  # or "auto" / "cupy"
+)
+```
+
+For larger datasets, generation now uses bounded batches internally. You can
+lower `max_working_memory_mb`, force `statement_batch_size`, or opt into graph
+exports with `save_simplification_graph_gexf=True`. GEXF graph files are
+disabled by default because graph export can dominate runtime for wide
+datasets.
+
 ### Quick Start
 
 The easiest way to get started is with a JSON configuration file.

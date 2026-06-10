@@ -52,6 +52,14 @@ dependencies = [
     "pandas"
 ]
 
+[project.optional-dependencies]
+gpu-cuda12 = [
+    "cupy-cuda12x[ctk]"
+]
+gpu-cuda13 = [
+    "cupy-cuda13x[ctk]"
+]
+
 [project.urls]
 "Homepage" = "https://github.com/lyvelyte/fuzzylinguistics"
 "Bug Tracker" = "https://github.com/lyvelyte/fuzzylinguistics/issues"
