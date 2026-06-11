@@ -628,7 +628,10 @@ class FuzzyLinguisticSummaries:
         self.initial_summary_mode = initial_summary_mode
         self.max_initial_summary_items = int(max_initial_summary_items)
         self.initial_summary_streamed = False
-        print(f"Using {self.active_backend} compute backend.")
+        if self.active_backend == "cupy":
+            print("GPU acceleration enabled via CuPy.")
+        else:
+            print("GPU acceleration disabled; using NumPy CPU backend.")
 
     def _ensure_memmap_dir(self):
         if self._memmap_dir is None:
