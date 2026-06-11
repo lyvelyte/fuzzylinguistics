@@ -1,7 +1,13 @@
 import numpy as np
+import pandas as pd
 import pytest
 
-from fuzzylinguistics import FuzzyLinguisticSummaries, setup_fls
+from fuzzylinguistics import (
+    DatasetConfig,
+    FuzzyLinguisticSummaries,
+    setup_fls,
+    setup_fls_from_data,
+)
 from fuzzylinguistics import fuzzy_linguistic_summaries as fls_module
 from fuzzylinguistics.fuzzy_linguistic_summaries import (
     evaluate_trapezoidal_fuzzy_membership,
@@ -130,6 +136,32 @@ def test_no_qualifier_generation(tmp_path):
         simplify_fls=False,
     )
     assert len(result["initial_linguistic_summary"]["linguistic_statements"]) == 9
+
+
+def test_setup_fls_from_data_accepts_pandas_and_lists():
+    df = pd.read_csv("examples/data.csv")
+    input_df = df.iloc[:, :2]
+    output_data = df.iloc[:, 2:].values.tolist()
+
+    dataset = DatasetConfig(
+        category_name="Cars",
+        model_name="Car Example",
+        uses_qualifier=True,
+        input_dimension_labels=list(input_df.columns),
+        input_dimension_units=[None] * input_df.shape[1],
+        input_data=input_df,
+        output_dimension_labels=list(df.columns[2:]),
+        output_dimension_units=[None] * (df.shape[1] - 2),
+        output_data=output_data,
+    )
+
+    fls = setup_fls_from_data(
+        [dataset],
+        "examples/configs/membership_functions.json",
+    )
+
+    assert isinstance(fls.data_categories[0].input_data, np.ndarray)
+    assert isinstance(fls.data_categories[0].output_data, np.ndarray)
 
 
 def test_many_column_memory_safe_streaming(tmp_path):

@@ -2,7 +2,7 @@ from .fuzzy_linguistic_summaries import FuzzyLinguisticSummaries
 import numpy as np
 import pandas as pd
 from typing import List, Optional, Union, Dict
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, ConfigDict, field_validator
 from pydantic_numpy.typing import NpNDArray
 import json
 import os
@@ -16,7 +16,8 @@ class MembershipFunctionConfig(BaseModel):
     trapezoidal_x_vals: NpNDArray
     relevancy_weights: List[float]
 
-    @validator('trapezoidal_x_vals', pre=True)
+    @field_validator('trapezoidal_x_vals', mode="before")
+    @classmethod
     def replace_none_with_nan(cls, v):
         """
         Recursively replaces None values in a list of lists with float('nan').
@@ -41,10 +42,10 @@ class DatasetConfig(BaseModel):
     output_dimension_units: List[Optional[str]]
     output_data: Union[NpNDArray, pd.DataFrame, List]
 
-    class Config:
-        arbitrary_types_allowed = True
+    model_config = ConfigDict(arbitrary_types_allowed=True)
 
-    @validator('input_data', 'output_data', pre=True, each_item=False)
+    @field_validator('input_data', 'output_data', mode="before")
+    @classmethod
     def convert_to_numpy(cls, v):
         if isinstance(v, pd.DataFrame):
             return v.values
@@ -130,7 +131,7 @@ def setup_fls_from_data(
 
     # Create the full configuration dictionary
     config_dict = {
-        "datasets": [ds.dict() for ds in datasets],
+        "datasets": [ds.model_dump() for ds in datasets],
         **mf_config_dict
     }
 
